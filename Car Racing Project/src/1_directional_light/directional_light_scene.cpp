@@ -23,7 +23,7 @@ void DirectionalLightScene::Initialize()
     
     groundLeft = MeshUtils::Plane({0,0}, {5,5});
     track =  MeshUtils::LoadObj("assets/models/road.obj");
-    groundRight =  MeshUtils::LoadObj("assets/models/road.obj");
+    groundRight =  MeshUtils::Plane({0,0}, {5,5});
     sky = MeshUtils::Box();
     model = MeshUtils::LoadObj("assets/models/suzanne.obj");
     carmodel = MeshUtils::LoadCar("assets/models/car.obj");
@@ -63,6 +63,7 @@ void DirectionalLightScene::Initialize()
     sand[ROUGHNESS] = TextureUtils::Load2DTextureFromFile("assets/textures/sand.jpg");
     sand[AMBIENT_OCCLUSION] = TextureUtils::Load2DTextureFromFile("assets/textures/sand.jpg");
     sand[EMISSIVE] = TextureUtils::SingleColor({0,0,0,1});
+  
 
     rockText[ALBEDO] = TextureUtils::Load2DTextureFromFile("assets/textures/rock.jpg");
     rockText[SPECULAR] = TextureUtils::Load2DTextureFromFile("assets/textures/rock.jpg");
@@ -185,8 +186,8 @@ void DirectionalLightScene::Draw()
     shader->set("material.roughness_scale", 1.0f);
     shader->set("material.emissive_tint", {1,1,1});
 
-    glm::mat4 ground1_mat = glm::translate(glm::mat4(), {-635, 1, 0});
-    ground1_mat = glm::scale(ground1_mat, glm::vec3(300, 1, 300));
+    glm::mat4 ground1_mat = glm::translate(glm::mat4(), {-315, 1, 0});
+    ground1_mat = glm::scale(ground1_mat, {300,1,500});
     shader->set("M", ground1_mat);
     shader->set("M_it", glm::transpose(glm::inverse(ground1_mat)));
     for(int i = 0; i < 5; i++){
@@ -196,15 +197,15 @@ void DirectionalLightScene::Draw()
     groundRight->draw();
 
     glm::mat4 ground2_mat = glm::translate(glm::mat4(), {315, 1, 0});
-    ground2_mat = glm::scale(ground2_mat, glm::vec3(300, 1, 300));
+    ground2_mat = glm::scale(ground2_mat,{300,1,500});
     shader->set("M", ground2_mat);
     shader->set("M_it", glm::transpose(glm::inverse(ground2_mat)));
-    for(int i = 0; i < 5; i++){
-        glActiveTexture(GL_TEXTURE0+i);
-        sand[i]->bind();
+    for(int j = 0; j < 5; j++){
+        glActiveTexture(GL_TEXTURE0+j);
+        sand[j]->bind();
     }
     groundLeft->draw();
-    glm::mat4 track_mat = glm::translate(track_mat, {0, 0, 40});
+    glm::mat4 track_mat = glm::translate(track_mat, {0, 1, 40});
     track_mat = glm::scale(glm::mat4(), glm::vec3(8, 1, 300));
     shader->set("M", track_mat);
     shader->set("M_it", glm::transpose(glm::inverse(track_mat)));
