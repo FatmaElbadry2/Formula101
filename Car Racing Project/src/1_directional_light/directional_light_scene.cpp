@@ -22,11 +22,7 @@ void DirectionalLightScene::Initialize()
     skyShader->link();
     
     groundLeft = MeshUtils::Plane({0,0}, {5,5});
-    //ground = MeshUtils::SubdividedPlane({2,100});
-    //track = MeshUtils::SubdividedPlane({1,100});
-    //track = MeshUtils::Plane({0,0}, {5,5});
     track =  MeshUtils::LoadObj("assets/models/road.obj");
-    //groundLeft =  MeshUtils::LoadObj("assets/models/road.obj");
     groundRight =  MeshUtils::LoadObj("assets/models/road.obj");
     sky = MeshUtils::Box();
     model = MeshUtils::LoadObj("assets/models/suzanne.obj");
@@ -208,11 +204,6 @@ void DirectionalLightScene::Draw()
         sand[i]->bind();
     }
     groundLeft->draw();
-
-    //glm:: mat4 track_mat = glm::scale(glm::mat4(), glm::vec3(2, 6, 100));
-    //glm::mat4 track_mat1 = glm::translate(glm::mat4(), {102, 1, 0});
-    //glm::mat4 track_mat1 = glm::translate(glm::mat4(), {0, 0, 0});
-
     glm::mat4 track_mat = glm::translate(track_mat, {0, 0, 40});
     track_mat = glm::scale(glm::mat4(), glm::vec3(8, 1, 300));
     shader->set("M", track_mat);

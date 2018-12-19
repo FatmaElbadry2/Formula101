@@ -9,8 +9,8 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:55:11 �.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:15:49 �.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\3.12.3\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\3.12.3\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:21.73
+Time Elapsed 00:00:11.80
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +54,8 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:55:35 �.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:16:03 �.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\3.12.3\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\3.12.3\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,259 +74,259 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.08
+Time Elapsed 00:00:01.91
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/CMakeTmp
+Change Dir: c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_95044.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bb3e7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:55:40 م.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_95044.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:16:08 م.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_bb3e7.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_95044.dir\Debug\".
-  Creating directory "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_95044.dir\Debug\cmTC_95044.tlog\".
+  Creating directory "cmTC_bb3e7.dir\Debug\".
+  Creating directory "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bb3e7.dir\Debug\cmTC_bb3e7.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_95044.dir\Debug\cmTC_95044.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_bb3e7.dir\Debug\cmTC_bb3e7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95044.dir\Debug\\" /Fd"cmTC_95044.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb3e7.dir\Debug\\" /Fd"cmTC_bb3e7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95044.dir\Debug\\" /Fd"cmTC_95044.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb3e7.dir\Debug\\" /Fd"cmTC_bb3e7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_95044.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_95044.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_95044.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_95044.dir\Debug\testCCompiler.obj
-  cmTC_95044.vcxproj -> C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_95044.exe
-  cmTC_95044.vcxproj -> C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_95044.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_bb3e7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_bb3e7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_bb3e7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bb3e7.dir\Debug\testCCompiler.obj
+  cmTC_bb3e7.vcxproj -> C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_bb3e7.exe
+  cmTC_bb3e7.vcxproj -> C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_bb3e7.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_95044.dir\Debug\cmTC_95044.tlog\unsuccessfulbuild".
-  Touching "cmTC_95044.dir\Debug\cmTC_95044.tlog\cmTC_95044.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_95044.vcxproj" (default targets).
+  Deleting file "cmTC_bb3e7.dir\Debug\cmTC_bb3e7.tlog\unsuccessfulbuild".
+  Touching "cmTC_bb3e7.dir\Debug\cmTC_bb3e7.tlog\cmTC_bb3e7.lastbuildstate".
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_bb3e7.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:04.07
+Time Elapsed 00:00:02.06
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/CMakeTmp
+Change Dir: c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fc417.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_13a47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:55:45 م.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_fc417.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:16:11 م.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_13a47.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_fc417.dir\Debug\".
-  Creating directory "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_fc417.dir\Debug\cmTC_fc417.tlog\".
+  Creating directory "cmTC_13a47.dir\Debug\".
+  Creating directory "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_13a47.dir\Debug\cmTC_13a47.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_fc417.dir\Debug\cmTC_fc417.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_13a47.dir\Debug\cmTC_13a47.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc417.dir\Debug\\" /Fd"cmTC_fc417.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13a47.dir\Debug\\" /Fd"cmTC_13a47.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc417.dir\Debug\\" /Fd"cmTC_fc417.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13a47.dir\Debug\\" /Fd"cmTC_13a47.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc417.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc417.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc417.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fc417.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_fc417.vcxproj -> C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc417.exe
-  cmTC_fc417.vcxproj -> C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc417.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_13a47.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_13a47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_13a47.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_13a47.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_13a47.vcxproj -> C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_13a47.exe
+  cmTC_13a47.vcxproj -> C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_13a47.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_fc417.dir\Debug\cmTC_fc417.tlog\unsuccessfulbuild".
-  Touching "cmTC_fc417.dir\Debug\cmTC_fc417.tlog\cmTC_fc417.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_fc417.vcxproj" (default targets).
+  Deleting file "cmTC_13a47.dir\Debug\cmTC_13a47.tlog\unsuccessfulbuild".
+  Touching "cmTC_13a47.dir\Debug\cmTC_13a47.tlog\cmTC_13a47.lastbuildstate".
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_13a47.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:04.88
+Time Elapsed 00:00:02.47
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/CMakeTmp
+Change Dir: c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_32d15.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2a9ca.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:55:51 م.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_32d15.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:16:14 م.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_2a9ca.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_32d15.dir\Debug\".
-  Creating directory "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_32d15.dir\Debug\cmTC_32d15.tlog\".
+  Creating directory "cmTC_2a9ca.dir\Debug\".
+  Creating directory "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2a9ca.dir\Debug\cmTC_2a9ca.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_32d15.dir\Debug\cmTC_32d15.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_2a9ca.dir\Debug\cmTC_2a9ca.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32d15.dir\Debug\\" /Fd"cmTC_32d15.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\feature_tests.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a9ca.dir\Debug\\" /Fd"cmTC_2a9ca.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\feature_tests.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32d15.dir\Debug\\" /Fd"cmTC_32d15.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\feature_tests.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a9ca.dir\Debug\\" /Fd"cmTC_2a9ca.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\feature_tests.c"
   
   feature_tests.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_32d15.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_32d15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_32d15.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_32d15.dir\Debug\feature_tests.obj
-  cmTC_32d15.vcxproj -> C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_32d15.exe
-  cmTC_32d15.vcxproj -> C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_32d15.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_2a9ca.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a9ca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a9ca.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2a9ca.dir\Debug\feature_tests.obj
+  cmTC_2a9ca.vcxproj -> C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_2a9ca.exe
+  cmTC_2a9ca.vcxproj -> C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a9ca.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_32d15.dir\Debug\cmTC_32d15.tlog\unsuccessfulbuild".
-  Touching "cmTC_32d15.dir\Debug\cmTC_32d15.tlog\cmTC_32d15.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_32d15.vcxproj" (default targets).
+  Deleting file "cmTC_2a9ca.dir\Debug\cmTC_2a9ca.tlog\unsuccessfulbuild".
+  Touching "cmTC_2a9ca.dir\Debug\cmTC_2a9ca.tlog\cmTC_2a9ca.lastbuildstate".
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_2a9ca.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.81
+Time Elapsed 00:00:01.98
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/CMakeTmp
+Change Dir: c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_65bfb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ecc30.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:55:54 م.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_65bfb.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:16:17 م.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_ecc30.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_65bfb.dir\Debug\".
-  Creating directory "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_65bfb.dir\Debug\cmTC_65bfb.tlog\".
+  Creating directory "cmTC_ecc30.dir\Debug\".
+  Creating directory "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ecc30.dir\Debug\cmTC_ecc30.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_65bfb.dir\Debug\cmTC_65bfb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_ecc30.dir\Debug\cmTC_ecc30.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65bfb.dir\Debug\\" /Fd"cmTC_65bfb.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ecc30.dir\Debug\\" /Fd"cmTC_ecc30.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65bfb.dir\Debug\\" /Fd"cmTC_65bfb.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ecc30.dir\Debug\\" /Fd"cmTC_ecc30.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_65bfb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_65bfb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_65bfb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_65bfb.dir\Debug\testCXXCompiler.obj
-  cmTC_65bfb.vcxproj -> C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_65bfb.exe
-  cmTC_65bfb.vcxproj -> C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_65bfb.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ecc30.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ecc30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ecc30.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ecc30.dir\Debug\testCXXCompiler.obj
+  cmTC_ecc30.vcxproj -> C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ecc30.exe
+  cmTC_ecc30.vcxproj -> C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ecc30.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_65bfb.dir\Debug\cmTC_65bfb.tlog\unsuccessfulbuild".
-  Touching "cmTC_65bfb.dir\Debug\cmTC_65bfb.tlog\cmTC_65bfb.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_65bfb.vcxproj" (default targets).
+  Deleting file "cmTC_ecc30.dir\Debug\cmTC_ecc30.tlog\unsuccessfulbuild".
+  Touching "cmTC_ecc30.dir\Debug\cmTC_ecc30.tlog\cmTC_ecc30.lastbuildstate".
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_ecc30.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.69
+Time Elapsed 00:00:01.90
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/CMakeTmp
+Change Dir: c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6093f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_996f3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:55:57 م.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_6093f.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:16:20 م.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_996f3.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_6093f.dir\Debug\".
-  Creating directory "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_6093f.dir\Debug\cmTC_6093f.tlog\".
+  Creating directory "cmTC_996f3.dir\Debug\".
+  Creating directory "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_996f3.dir\Debug\cmTC_996f3.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_6093f.dir\Debug\cmTC_6093f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_996f3.dir\Debug\cmTC_996f3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6093f.dir\Debug\\" /Fd"cmTC_6093f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_996f3.dir\Debug\\" /Fd"cmTC_996f3.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6093f.dir\Debug\\" /Fd"cmTC_6093f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_996f3.dir\Debug\\" /Fd"cmTC_996f3.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6093f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6093f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6093f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6093f.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_6093f.vcxproj -> C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6093f.exe
-  cmTC_6093f.vcxproj -> C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6093f.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_996f3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_996f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_996f3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_996f3.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_996f3.vcxproj -> C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_996f3.exe
+  cmTC_996f3.vcxproj -> C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_996f3.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_6093f.dir\Debug\cmTC_6093f.tlog\unsuccessfulbuild".
-  Touching "cmTC_6093f.dir\Debug\cmTC_6093f.tlog\cmTC_6093f.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_6093f.vcxproj" (default targets).
+  Deleting file "cmTC_996f3.dir\Debug\cmTC_996f3.tlog\unsuccessfulbuild".
+  Touching "cmTC_996f3.dir\Debug\cmTC_996f3.tlog\cmTC_996f3.lastbuildstate".
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_996f3.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.47
+Time Elapsed 00:00:01.73
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: c:/users/user/documents/computer graphics/car racing project/build/CMakeFiles/CMakeTmp
+Change Dir: c:/users/user/desktop/formula101/car racing project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a225e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_91a47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 12/18/2018 09:56:01 م.
-Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_a225e.vcxproj" on node 1 (default targets).
+Build started 12/19/2018 07:16:22 م.
+Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_91a47.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_a225e.dir\Debug\".
-  Creating directory "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_a225e.dir\Debug\cmTC_a225e.tlog\".
+  Creating directory "cmTC_91a47.dir\Debug\".
+  Creating directory "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_91a47.dir\Debug\cmTC_91a47.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_a225e.dir\Debug\cmTC_a225e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_91a47.dir\Debug\cmTC_91a47.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a225e.dir\Debug\\" /Fd"cmTC_a225e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_91a47.dir\Debug\\" /Fd"cmTC_91a47.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a225e.dir\Debug\\" /Fd"cmTC_a225e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_91a47.dir\Debug\\" /Fd"cmTC_91a47.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a225e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a225e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a225e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a225e.dir\Debug\feature_tests.obj
-  cmTC_a225e.vcxproj -> C:\Users\user\Documents\Computer graphics\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a225e.exe
-  cmTC_a225e.vcxproj -> C:/Users/user/Documents/Computer graphics/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a225e.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_91a47.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_91a47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_91a47.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_91a47.dir\Debug\feature_tests.obj
+  cmTC_91a47.vcxproj -> C:\Users\user\Desktop\Formula101\Car Racing Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_91a47.exe
+  cmTC_91a47.vcxproj -> C:/Users/user/Desktop/Formula101/Car Racing Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_91a47.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_a225e.dir\Debug\cmTC_a225e.tlog\unsuccessfulbuild".
-  Touching "cmTC_a225e.dir\Debug\cmTC_a225e.tlog\cmTC_a225e.lastbuildstate".
-Done Building Project "c:\users\user\documents\computer graphics\car racing project\build\CMakeFiles\CMakeTmp\cmTC_a225e.vcxproj" (default targets).
+  Deleting file "cmTC_91a47.dir\Debug\cmTC_91a47.tlog\unsuccessfulbuild".
+  Touching "cmTC_91a47.dir\Debug\cmTC_91a47.tlog\cmTC_91a47.lastbuildstate".
+Done Building Project "c:\users\user\desktop\formula101\car racing project\build\CMakeFiles\CMakeTmp\cmTC_91a47.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.02
+Time Elapsed 00:00:01.88
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

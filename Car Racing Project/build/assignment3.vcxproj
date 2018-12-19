@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3959F9CE-93CA-337D-AD01-68F901F6533E}</ProjectGuid>
+    <ProjectGuid>{91AC062F-121B-3876-8A54-F70557A1AE05}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>assignment3</ProjectName>
@@ -55,25 +55,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\user\Documents\Computer graphics\Car Racing Project\build\assignment3\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\user\Desktop\Formula101\Car Racing Project\build\assignment3\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">assignment3.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">assignment3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\user\Documents\Computer graphics\Car Racing Project\build\assignment3\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\user\Desktop\Formula101\Car Racing Project\build\assignment3\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">assignment3.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">assignment3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\user\Documents\Computer graphics\Car Racing Project\build\assignment3\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\user\Desktop\Formula101\Car Racing Project\build\assignment3\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">assignment3.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">assignment3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\user\Documents\Computer graphics\Car Racing Project\build\assignment3\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\user\Desktop\Formula101\Car Racing Project\build\assignment3\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">assignment3.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">assignment3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -94,15 +94,15 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Documents/Computer graphics/Car Racing Project";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Desktop/Formula101/Car Racing Project";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Documents/Computer graphics/Car Racing Project\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Desktop/Formula101/Car Racing Project\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,8 +115,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/Debug/assignment3.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/assignment3/Debug/assignment3.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/user/Desktop/Formula101/Car Racing Project/build/Debug/assignment3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/Formula101/Car Racing Project/build/assignment3/Debug/assignment3.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -125,7 +125,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -135,17 +135,17 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Documents/Computer graphics/Car Racing Project";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Desktop/Formula101/Car Racing Project";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Documents/Computer graphics/Car Racing Project\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Desktop/Formula101/Car Racing Project\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,8 +158,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/Release/assignment3.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/assignment3/Release/assignment3.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/user/Desktop/Formula101/Car Racing Project/build/Release/assignment3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/Formula101/Car Racing Project/build/assignment3/Release/assignment3.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -168,7 +168,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -178,17 +178,17 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Documents/Computer graphics/Car Racing Project";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Desktop/Formula101/Car Racing Project";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Documents/Computer graphics/Car Racing Project\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Desktop/Formula101/Car Racing Project\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,8 +201,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/MinSizeRel/assignment3.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/assignment3/MinSizeRel/assignment3.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/user/Desktop/Formula101/Car Racing Project/build/MinSizeRel/assignment3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/Formula101/Car Racing Project/build/assignment3/MinSizeRel/assignment3.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -211,7 +211,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -222,15 +222,15 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Documents/Computer graphics/Car Racing Project";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/user/Desktop/Formula101/Car Racing Project";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Documents/Computer graphics/Car Racing Project\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/user/Desktop/Formula101/Car Racing Project\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\user\Documents\Computer graphics\Car Racing Project\src;C:\Users\user\Documents\Computer graphics\Car Racing Project\common;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glfw\include;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glm;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\stb;C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\Formula101\Car Racing Project\src;C:\Users\user\Desktop\Formula101\Car Racing Project\common;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glfw\include;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glm;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\stb;C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -243,8 +243,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/RelWithDebInfo/assignment3.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/user/Documents/Computer graphics/Car Racing Project/build/assignment3/RelWithDebInfo/assignment3.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/user/Desktop/Formula101/Car Racing Project/build/RelWithDebInfo/assignment3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/Formula101/Car Racing Project/build/assignment3/RelWithDebInfo/assignment3.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -252,32 +252,30 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\src\1_directional_light\directional_light_scene.cpp" />
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\src\main.cpp" />
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\src\racing_scene\racing_scene.cpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\src\1_directional_light\directional_light_scene.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\src\racing_scene\racing_scene.hpp" />
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\application.cpp" />
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\mesh\mesh_utils.cpp" />
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\scene.cpp" />
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\textures\texture_utils.cpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\application.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\camera\camera.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\camera\controllers\fly_camera_controller.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\camera\controllers\orbit_camera_controller.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\input\keyboard.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\input\mouse.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\mesh\mesh.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\mesh\mesh_utils.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\mesh\vertex.h" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\mesh\vertex_attribute_pointer.h" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\scene.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\shader.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\textures\texture2d.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\textures\texture_cube.hpp" />
-    <ClInclude Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\common\textures\texture_utils.hpp" />
-    <None Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\CMakeLists.txt" />
-    <ClCompile Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\vendor\glad\src\glad.c">
+    <ClCompile Include="C:\Users\user\Desktop\Formula101\Car Racing Project\src\1_directional_light\directional_light_scene.cpp" />
+    <ClCompile Include="C:\Users\user\Desktop\Formula101\Car Racing Project\src\main.cpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\src\1_directional_light\directional_light_scene.hpp" />
+    <ClCompile Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\application.cpp" />
+    <ClCompile Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\mesh\mesh_utils.cpp" />
+    <ClCompile Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\scene.cpp" />
+    <ClCompile Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\textures\texture_utils.cpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\application.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\camera\camera.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\camera\controllers\fly_camera_controller.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\camera\controllers\orbit_camera_controller.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\input\keyboard.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\input\mouse.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\mesh\mesh.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\mesh\mesh_utils.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\mesh\vertex.h" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\mesh\vertex_attribute_pointer.h" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\scene.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\shader.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\textures\texture2d.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\textures\texture_cube.hpp" />
+    <ClInclude Include="C:\Users\user\Desktop\Formula101\Car Racing Project\common\textures\texture_utils.hpp" />
+    <None Include="C:\Users\user\Desktop\Formula101\Car Racing Project\CMakeLists.txt" />
+    <ClCompile Include="C:\Users\user\Desktop\Formula101\Car Racing Project\vendor\glad\src\glad.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
@@ -285,8 +283,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\user\Documents\Computer graphics\Car Racing Project\build\vendor\glfw\src\glfw.vcxproj">
-      <Project>{D7F4952C-8282-3553-AC6B-57B1FE8BB85A}</Project>
+    <ProjectReference Include="C:\Users\user\Desktop\Formula101\Car Racing Project\build\vendor\glfw\src\glfw.vcxproj">
+      <Project>{6D698A05-4D38-3D62-BC42-D4BA716F8D9C}</Project>
       <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,6 +1,6 @@
 #include <application.hpp>
 #include "1_directional_light/directional_light_scene.hpp"
-#include "racing_scene/racing_scene.hpp"
+
 
 //NOTE: OpenGL is pure C so any class you see is not part of OpenGL
 // All OpenGL functions start with "gl" and All constants and datatypes start with "GL"

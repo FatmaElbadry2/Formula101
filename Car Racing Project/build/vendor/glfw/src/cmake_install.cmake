@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/Documents/Computer graphics/Car Racing Project/vendor/glfw/src
+# Install script for directory: C:/Users/user/Desktop/Formula101/Car Racing Project/vendor/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

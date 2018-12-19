@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/Documents/Computer graphics/Car Racing Project
+# Install script for directory: C:/Users/user/Desktop/Formula101/Car Racing Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/user/Documents/Computer graphics/Car Racing Project/build/vendor/glfw/cmake_install.cmake")
+  include("C:/Users/user/Desktop/Formula101/Car Racing Project/build/vendor/glfw/cmake_install.cmake")
 
 endif()
 
