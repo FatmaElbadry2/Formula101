@@ -39,6 +39,7 @@ public:
     }
 
     void update(double delta_time){
+        /*
         if(mouse->justPressed(GLFW_MOUSE_BUTTON_1)){
             mouse->lockMouse();
         } else if(mouse->justReleased(GLFW_MOUSE_BUTTON_1)){
@@ -50,7 +51,7 @@ public:
             pitch -= delta.y * pitchSenstivity;
             yaw += delta.x * yawSenstivity;
         }
-        
+        */
         if(pitch < -glm::half_pi<float>() * 0.99f) pitch = -glm::half_pi<float>() * 0.99f;
         if(pitch >  glm::half_pi<float>() * 0.99f) pitch  = glm::half_pi<float>() * 0.99f;
         yaw = glm::wrapAngle(yaw);

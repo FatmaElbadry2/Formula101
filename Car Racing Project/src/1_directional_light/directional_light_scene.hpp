@@ -9,7 +9,7 @@
 #include <textures/texture2d.hpp>
 #include <camera/camera.hpp>
 #include <camera/controllers/fly_camera_controller.hpp>
-
+#include<time.h>
 enum TextureType 
 {
     ALBEDO = 0,
@@ -23,7 +23,14 @@ class DirectionalLightScene : public Scene
 {
 private:
     float Rotation;
+    int speed;
+    int obpos;
+    float carpos;
+    float rockpos;
+    int rockrate;
+
     Shader* shader;
+    time_t timer;
     Shader* skyShader;
     Mesh* groundLeft;
     Mesh* groundRight;
@@ -33,6 +40,7 @@ private:
     Mesh* track;
     Mesh* rock;
     Mesh* cone;
+    
     Texture2D* metal[5];
     Texture2D* wood[5];
     Texture2D* asphalt[5];

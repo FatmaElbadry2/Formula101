@@ -6,11 +6,16 @@
 #include <glm/trigonometric.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-
-void DirectionalLightScene::Initialize() 
+#include <time.h>
+void DirectionalLightScene::Initialize()
 {
     Rotation = -90;
-
+    speed = 0;
+    obpos = 30;
+    rockrate = 80;
+    carpos = 0;
+    rockpos = 50;
+    time(&timer);
     shader = new Shader();
     shader->attach("assets/shaders/directional.vert", GL_VERTEX_SHADER);
     shader->attach("assets/shaders/directional.frag", GL_FRAGMENT_SHADER);
@@ -20,10 +25,10 @@ void DirectionalLightScene::Initialize()
     skyShader->attach("assets/shaders/sky.vert", GL_VERTEX_SHADER);
     skyShader->attach("assets/shaders/sky.frag", GL_FRAGMENT_SHADER);
     skyShader->link();
-    
-    groundLeft = MeshUtils::Plane({0,0}, {5,5});
-    track =  MeshUtils::LoadObj("assets/models/road.obj");
-    groundRight =  MeshUtils::Plane({0,0}, {5,5});
+
+    groundLeft = MeshUtils::Plane({0, 0}, {5, 5});
+    track = MeshUtils::LoadObj("assets/models/road.obj");
+    groundRight = MeshUtils::Plane({0, 0}, {5, 5});
     sky = MeshUtils::Box();
     model = MeshUtils::LoadObj("assets/models/suzanne.obj");
     carmodel = MeshUtils::LoadCar("assets/models/car.obj");
@@ -34,15 +39,15 @@ void DirectionalLightScene::Initialize()
     metal[SPECULAR] = TextureUtils::Load2DTextureFromFile("assets/textures/Metal_spc.jpg");
     metal[ROUGHNESS] = TextureUtils::Load2DTextureFromFile("assets/textures/Metal_rgh.jpg");
     metal[AMBIENT_OCCLUSION] = TextureUtils::Load2DTextureFromFile("assets/textures/Suzanne_ao.jpg");
-    metal[EMISSIVE] = TextureUtils::SingleColor({0,0,0,1});
+    metal[EMISSIVE] = TextureUtils::SingleColor({0, 0, 0, 1});
 
     wood[ALBEDO] = TextureUtils::Load2DTextureFromFile("assets/textures/Wood_col.jpg");
     wood[SPECULAR] = TextureUtils::Load2DTextureFromFile("assets/textures/Wood_spc.jpg");
     wood[ROUGHNESS] = TextureUtils::Load2DTextureFromFile("assets/textures/Wood_rgh.jpg");
     wood[AMBIENT_OCCLUSION] = TextureUtils::Load2DTextureFromFile("assets/textures/Suzanne_ao.jpg");
-    wood[EMISSIVE] = TextureUtils::SingleColor({0,0,0,1});
+    wood[EMISSIVE] = TextureUtils::SingleColor({0, 0, 0, 1});
 
-    asphalt[ALBEDO] = TextureUtils::Load2DTextureFromFile("assets/textures/Asphalt_col.jpg");    
+    asphalt[ALBEDO] = TextureUtils::Load2DTextureFromFile("assets/textures/Asphalt_col.jpg");
     //asphalt[SPECULAR] = TextureUtils::Load2DTextureFromFile("assets/textures/Asphalt_spc.jpg");
     asphalt[SPECULAR] = TextureUtils::Load2DTextureFromFile("assets/textures/Asphalt_col.jpg");
     //asphalt[ROUGHNESS] = TextureUtils::Load2DTextureFromFile("assets/textures/Asphalt_rgh.jpg");
@@ -52,18 +57,17 @@ void DirectionalLightScene::Initialize()
     //asphalt[EMISSIVE] = TextureUtils::Load2DTextureFromFile("assets/textures/Asphalt_em.jpg");
     asphalt[EMISSIVE] = TextureUtils::Load2DTextureFromFile("assets/textures/Asphalt_col.jpg");
 
-    checkers[ALBEDO] = TextureUtils::CheckerBoard({2048, 2048}, {128, 128}, {1,1,1,1}, {0,0,0,1});
-    checkers[SPECULAR] = TextureUtils::CheckerBoard({2048, 2048}, {128, 128}, {0.2f,0.2f,0.2f,1}, {1,1,1,1});
-    checkers[ROUGHNESS] = TextureUtils::CheckerBoard({2048, 2048}, {128, 128}, {0.9f,0.9f,0.9f,1}, {0.4f,0.4f,0.4f,1});
-    checkers[AMBIENT_OCCLUSION] = TextureUtils::SingleColor({0,0,0,1});
-    checkers[EMISSIVE] = TextureUtils::SingleColor({0,0,0,1});
+    checkers[ALBEDO] = TextureUtils::CheckerBoard({2048, 2048}, {128, 128}, {1, 1, 1, 1}, {0, 0, 0, 1});
+    checkers[SPECULAR] = TextureUtils::CheckerBoard({2048, 2048}, {128, 128}, {0.2f, 0.2f, 0.2f, 1}, {1, 1, 1, 1});
+    checkers[ROUGHNESS] = TextureUtils::CheckerBoard({2048, 2048}, {128, 128}, {0.9f, 0.9f, 0.9f, 1}, {0.4f, 0.4f, 0.4f, 1});
+    checkers[AMBIENT_OCCLUSION] = TextureUtils::SingleColor({0, 0, 0, 1});
+    checkers[EMISSIVE] = TextureUtils::SingleColor({0, 0, 0, 1});
 
     sand[ALBEDO] = TextureUtils::Load2DTextureFromFile("assets/textures/sand.jpg");
     sand[SPECULAR] = TextureUtils::Load2DTextureFromFile("assets/textures/sand.jpg");
     sand[ROUGHNESS] = TextureUtils::Load2DTextureFromFile("assets/textures/sand.jpg");
     sand[AMBIENT_OCCLUSION] = TextureUtils::Load2DTextureFromFile("assets/textures/sand.jpg");
-    sand[EMISSIVE] = TextureUtils::SingleColor({0,0,0,1});
-  
+    sand[EMISSIVE] = TextureUtils::SingleColor({0, 0, 0, 1});
 
     rockText[ALBEDO] = TextureUtils::Load2DTextureFromFile("assets/textures/rock.jpg");
     rockText[SPECULAR] = TextureUtils::Load2DTextureFromFile("assets/textures/rock.jpg");
@@ -88,10 +92,10 @@ void DirectionalLightScene::Initialize()
     roadText[ROUGHNESS] = TextureUtils::Load2DTextureFromFile("assets/textures/track.jpg");
     roadText[AMBIENT_OCCLUSION] = TextureUtils::Load2DTextureFromFile("assets/textures/track.jpg");
     roadText[EMISSIVE] = TextureUtils::Load2DTextureFromFile("assets/textures/track.jpg");
-    
+
     camera = new Camera();
     glm::ivec2 windowSize = getApplication()->getWindowSize();
-    camera->setupPerspective(glm::pi<float>()/2, (float)windowSize.x / windowSize.y, 0.1f, 1000.0f);
+    camera->setupPerspective(glm::pi<float>() / 2, (float)windowSize.x / windowSize.y, 0.1f, 1000.0f);
     camera->setUp({0, 1, 0});
 
     controller = new FlyCameraController(this, camera);
@@ -115,39 +119,72 @@ void DirectionalLightScene::Initialize()
     glBlendEquation(GL_FUNC_ADD);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    glClearColor(0.88f,0.68f,0.15f,0.0f);
+    glClearColor(0.88f, 0.68f, 0.15f, 0.0f);
 }
 
-void DirectionalLightScene::Update(double delta_time) 
+void CollisionDetection()
 {
+}
+
+void DirectionalLightScene::Update(double delta_time)
+{
+    time_t Ntime;
+    time(&Ntime);
+    if (Ntime - timer < 120)
+    {
+        speed = speed - 2;
+        if (speed % 240 == 0)
+            obpos = obpos + 240;
+    }
+    else
+        speed = 0;
+    rockpos--;
+    if (rockpos < 0)
+    {
+        rockrate = rockrate + 80;
+        rockpos = 50;
+    }
+
     controller->update(delta_time);
-    Keyboard* kb = getKeyboard();
+    Keyboard *kb = getKeyboard();
 
     float pitch_speed = 1.0f, yaw_speed = 1.0f;
 
-    if(kb->isPressed(GLFW_KEY_I)) sunPitch += (float)delta_time * pitch_speed;
-    if(kb->isPressed(GLFW_KEY_K)) sunPitch -= (float)delta_time * pitch_speed;
-    if(kb->isPressed(GLFW_KEY_L)) sunYaw += (float)delta_time * yaw_speed;
-    if(kb->isPressed(GLFW_KEY_J)) sunYaw -= (float)delta_time * yaw_speed;
-    
-    if(sunPitch < -glm::half_pi<float>()) sunPitch = -glm::half_pi<float>();
-    if(sunPitch > glm::half_pi<float>()) sunPitch = glm::half_pi<float>();
+   // if (kb->isPressed(GLFW_KEY_I))
+       // sunPitch +=(float)delta_time* pitch_speed;
+    //if (kb->isPressed(GLFW_KEY_K))
+        sunPitch -=0.012*(float)delta_time* pitch_speed;
+    //if (kb->isPressed(GLFW_KEY_L))
+        //sunYaw +=  (float)delta_time*yaw_speed;
+    //if (kb->isPressed(GLFW_KEY_J))
+        //sunYaw -= (float)delta_time* yaw_speed;
+    if (kb->isPressed(GLFW_KEY_LEFT))
+        carpos += 4 * (float)delta_time;
+    if (kb->isPressed(GLFW_KEY_RIGHT))
+        carpos -= 4 * (float)delta_time;
+    if (sunPitch < -glm::half_pi<float>())
+        sunPitch = -glm::half_pi<float>();
+    if (sunPitch > glm::half_pi<float>())
+        sunPitch = glm::half_pi<float>();
     sunYaw = glm::wrapAngle(sunYaw);
 }
 
 inline glm::vec3 getTimeOfDayMix(float sunPitch)
 {
     sunPitch /= glm::half_pi<float>();
-    if(sunPitch > 0){
+    if (sunPitch > 0)
+    {
         float noon = glm::smoothstep(0.0f, 0.5f, sunPitch);
         return {noon, 1.0f - noon, 0};
-    } else {
+    }
+    else
+    {
         float dusk = glm::smoothstep(0.0f, 0.25f, -sunPitch);
         return {0, 1.0f - dusk, dusk};
     }
 }
 
-void DirectionalLightScene::Draw() 
+void DirectionalLightScene::Draw()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //Clear colors and depth
 
@@ -162,7 +199,7 @@ void DirectionalLightScene::Draw()
     const glm::vec3 noonSunColor = {0.9f, 0.8f, 0.6f};
     const glm::vec3 sunsetSunColor = {0.8f, 0.6f, 0.4f};
     const glm::vec3 duskSunColor = {0.0f, 0.0f, 0.0f};
-    
+
     glm::vec3 mix = getTimeOfDayMix(sunPitch);
 
     glm::vec3 skyColor = mix.x * noonSkyColor + mix.y * sunsetSkyColor + mix.z * duskSkyColor;
@@ -173,7 +210,7 @@ void DirectionalLightScene::Draw()
     shader->set("cam_pos", cam_pos);
     shader->set("light.color", sunColor);
     shader->set("light.direction", -sun_direction);
-    shader->set("ambient", 0.5f*skyColor);
+    shader->set("ambient", 0.5f * skyColor);
 
     shader->set("material.albedo", 0);
     shader->set("material.specular", 1);
@@ -181,90 +218,82 @@ void DirectionalLightScene::Draw()
     shader->set("material.ambient_occlusion", 3);
     shader->set("material.emissive", 4);
 
-    shader->set("material.albedo_tint", {1,1,1});
-    shader->set("material.specular_tint", {1,1,1});
+    shader->set("material.albedo_tint", {1, 1, 1});
+    shader->set("material.specular_tint", {1, 1, 1});
     shader->set("material.roughness_scale", 1.0f);
-    shader->set("material.emissive_tint", {1,1,1});
+    shader->set("material.emissive_tint", {1, 1, 1});
 
-    glm::mat4 ground1_mat = glm::translate(glm::mat4(), {-315, 1, 0});
-    ground1_mat = glm::scale(ground1_mat, {300,1,500});
+    glm::mat4 ground1_mat = glm::translate(glm::mat4(), {-315, 1, 0 + speed});
+    ground1_mat = glm::scale(ground1_mat, {300, 1, 100000});
     shader->set("M", ground1_mat);
     shader->set("M_it", glm::transpose(glm::inverse(ground1_mat)));
-    for(int i = 0; i < 5; i++){
-        glActiveTexture(GL_TEXTURE0+i);
+    for (int i = 0; i < 5; i++)
+    {
+        glActiveTexture(GL_TEXTURE0 + i);
         sand[i]->bind();
     }
     groundRight->draw();
 
-    glm::mat4 ground2_mat = glm::translate(glm::mat4(), {315, 1, 0});
-    ground2_mat = glm::scale(ground2_mat,{300,1,500});
+    glm::mat4 ground2_mat = glm::translate(glm::mat4(), {315, 1, 0 + speed});
+    ground2_mat = glm::scale(ground2_mat, {300, 1, 100000});
     shader->set("M", ground2_mat);
     shader->set("M_it", glm::transpose(glm::inverse(ground2_mat)));
-    for(int j = 0; j < 5; j++){
-        glActiveTexture(GL_TEXTURE0+j);
+    for (int j = 0; j < 5; j++)
+    {
+        glActiveTexture(GL_TEXTURE0 + j);
         sand[j]->bind();
     }
     groundLeft->draw();
-    glm::mat4 track_mat = glm::translate(track_mat, {0, 1, 40});
+    glm::mat4 track_mat = glm::translate(track_mat, {0, 1, 0 + speed});
     track_mat = glm::scale(glm::mat4(), glm::vec3(8, 1, 300));
     shader->set("M", track_mat);
     shader->set("M_it", glm::transpose(glm::inverse(track_mat)));
-    for(int i = 0; i < 5; i++)
+    for (int i = 0; i < 5; i++)
     {
-        glActiveTexture(GL_TEXTURE0+i);
+        glActiveTexture(GL_TEXTURE0 + i);
         roadText[i]->bind();
     }
     track->draw();
 
-    glm:: mat4 modelcar_mat = glm::translate(glm::mat4(), {0, 0, -30});
-    modelcar_mat = glm::scale(modelcar_mat, glm::vec3(0.04, 0.04, 0.04));
+    glm::mat4 modelcar_mat = glm::translate(glm::mat4(), {0+ carpos, 0, -20});
+    modelcar_mat = glm::scale(modelcar_mat, glm::vec3(0.08, 0.08, 0.08));
     shader->set("M", modelcar_mat);
     shader->set("M_it", glm::transpose(glm::inverse(modelcar_mat)));
-    for(int i = 0; i < 5; i++)
+    for (int i = 0; i < 5; i++)
     {
-        glActiveTexture(GL_TEXTURE0+i);
+        glActiveTexture(GL_TEXTURE0 + i);
         carText[i]->bind();
     }
     carmodel->draw();
 
-    int n = 60;
-    int x = -3;
-    for(int i=0; i<30; i++)
+    glm::mat4 modelrock_mat = glm::translate(glm::mat4(), {0, rockpos, speed + rockrate});
+    modelrock_mat = glm::scale(modelrock_mat, {4, 4, 4});
+    shader->set("M", modelrock_mat);
+    shader->set("M_it", glm::transpose(glm::inverse(modelrock_mat)));
+    for (int i = 0; i < 5; i++)
     {
-        glm:: mat4 modelrock_mat = glm::translate(glm::mat4(), {x, 0, n});
-        modelrock_mat = glm::scale(modelrock_mat, glm::vec3(1, 1, 1));
-        shader->set("M", modelrock_mat);
-        shader->set("M_it", glm::transpose(glm::inverse(modelrock_mat)));
-        for(int i = 0; i < 5; i++)
-        {
-            glActiveTexture(GL_TEXTURE0+i);
-            rockText[i]->bind();
-        }
-        rock->draw();
-        n = n + 100;
-        x = -1 * x;
+        glActiveTexture(GL_TEXTURE0 + i);
+        rockText[i]->bind();
     }
-    
-    
-    int m = 30;
-    int y = 3;
-    for (int i=0; i< 30; i++)
+    rock->draw();
+
+    int m = 0;
+    int pos[6]={7,0,-7,0,7,0};
+    for (int i = 0; i < 6; i++)
     {
-        glm:: mat4 modelcone_mat = glm::translate(glm::mat4(), {y, 0, m});
-        modelcone_mat = glm::scale(modelcone_mat, glm::vec3(0.08, 0.08, 0.08));
+        glm::mat4 modelcone_mat = glm::translate(glm::mat4(), {pos[i], 0, m + speed + obpos});
+        modelcone_mat = glm::scale(modelcone_mat, glm::vec3(0.3, 0.15, 0.3));
         shader->set("M", modelcone_mat);
         shader->set("M_it", glm::transpose(glm::inverse(modelcone_mat)));
-        for(int i = 0; i < 5; i++)
+        for (int i = 0; i < 5; i++)
         {
-            glActiveTexture(GL_TEXTURE0+i);
+            glActiveTexture(GL_TEXTURE0 + i);
             coneText[i]->bind();
         }
         cone->draw();
         m = m + 60;
-        y = -1 * y;
     }
-    
-    
+
     //Draw SkyBox
     skyShader->use();
     skyShader->set("VP", VP);
@@ -276,21 +305,23 @@ void DirectionalLightScene::Draw()
     skyShader->set("sun_brightness", 1.0f);
     skyShader->set("sun_color", sunColor);
     skyShader->set("sky_top_color", skyColor);
-    skyShader->set("sky_bottom_color", 1.0f-0.25f*(1.0f-skyColor));
+    skyShader->set("sky_bottom_color", 1.0f - 0.25f * (1.0f - skyColor));
     skyShader->set("sky_smoothness", 0.5f);
     glCullFace(GL_FRONT);
     sky->draw();
     glCullFace(GL_BACK);
 }
 
-void DirectionalLightScene::Finalize() {
+void DirectionalLightScene::Finalize()
+{
     delete controller;
     delete camera;
     delete model;
     delete sky;
     delete groundLeft;
     delete groundRight;
-    for(int i = 0; i < 5; i++){
+    for (int i = 0; i < 5; i++)
+    {
         delete metal[i];
         delete wood[i];
         delete asphalt[i];
